@@ -7,7 +7,7 @@ const Form = ({ newItemsAdd }) => {
   };
   const submitValue = (e) => {
     e.preventDefault()
-    newItemsAdd('inputValue')
+    newItemsAdd(inputValue)
     setInputValue('')
   }
   return (
